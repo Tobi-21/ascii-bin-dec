@@ -23,9 +23,9 @@ int main(){
 	for (int i=0;i<n;i++){
 		cin>>a[i];
 	}
-	for (int i=0;i<14;i++){
-		gt(i);
-		cout<<endl;
+	for (int i=0;i<n;i++){
+		gt(a[i]);
+		cout<<" ";
 	}
 	return 0;
 }
